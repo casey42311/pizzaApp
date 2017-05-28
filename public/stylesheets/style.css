@@ -1,0 +1,169 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('/images/pizza2.jpg');
+  background-size: 1500px 1000px;
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+}
+
+h1, h2{
+text-align: center;
+color: white;
+}
+
+h3#h3 {
+  margin-left: 100px;
+  color:white;
+}
+
+select {
+  border-radius: 20px;
+  text-align: center;
+}
+
+fieldset {
+  width:800px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  box-shadow: 10px 10px 10px grey;
+}
+fieldset legend {
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 150%;
+  color: white;
+  box-shadow: 5px 5px 5px grey;
+}
+
+/*input#da {
+  clear: left;
+  margin-left: 20px;
+}*/
+
+input {
+  border-radius: 20px;
+  width: 200px;
+  background-color:white;
+  margin: 5px;
+  padding: 0px;
+  font-size: 100%;
+  float: left;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+    width: 115px;
+    height: 15px;
+    background: red;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+}
+
+table {
+  margin-left: 330px;
+  margin-right: 330px;
+  clear: all;
+}
+
+table th {
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+  background:#999966;
+  padding:5px 10px;
+  color: black;
+  opacity: 1;
+}
+
+p {
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
+  width: 175px;
+  font-size: 150%;
+  display: block;
+  margin: 5px;
+  padding-left: 60px;
+  font-size: 100%;
+  color: white;
+  float: left;
+  text-align: right;
+}
+
+a#home{
+  margin-left: 150px;
+   width: 150px;
+}
+
+button {
+  font-size: 100%;
+  width: 175px;
+  float: left;
+  border-radius: 20px;
+  margin: 5px;
+  margin-left: 20px;
+  background-color: grey;
+}
+
+button#acbtn {
+  margin-left: 310px;
+  display: block;
+  display: block;
+    /*height: 15px;*/
+    background: red;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+}
+
+form br {
+  clear: left;
+  line-height: 50px;
+}
+
+a#ac {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+a#nc {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+a#home {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a#conf {
+  width: 200px;
+}
+
+footer {
+  border-radius: 20px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 150px;
+}

@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('/images/pizza.jpg');
+  background-size: 1500px 1000px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+br {
+	clear: all;
+	line-height: 200px;
+}
+
+header {
+	border-radius: 20px;
+	background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    box-shadow: 10px 10px 10px grey;
+    margin-top:-58px;
+}
+
+footer {
+	border-radius: 20px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 100px;
+}
+
+h1{
+text-align: center;
+color: white;
+}
+
+a {
+	text-decoration: none;
+  display: block;
+    height: 15px;
+    background: red;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}

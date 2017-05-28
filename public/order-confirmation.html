@@ -1,0 +1,17 @@
+<h1>ORDER SUMMARY</h1> <br><br>
+
+
+<table *ngFor="let order of orders">
+	<tr><th>First Name</th><th>{{ order.firstName }}</th></tr>
+	<tr><th>Last Name</th><th>{{ order.lastName }}</th></tr>
+	<tr><th>phone</th><th>{{ order.phoneNumber }}</th></tr>
+	<tr><th>email</th><th>{{ order.email }}</th></tr>
+	<tr><th>Delivery Address</th><th>Lat = {{ order.lat }} : Long = {{ order.lon }}</th></tr>
+	<tr><th>Pizza Type</th><th>{{ order.pizzaType }}</th></tr>
+</table><br>
+<br><br>
+
+<hr>
+
+<a id="home" href="/">Back to Home Page</a>
+

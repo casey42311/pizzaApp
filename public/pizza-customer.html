@@ -1,0 +1,33 @@
+<h1>Order a Pizza of your choice</h1>
+
+{{ errorMessage }}                     
+
+<form>
+<fieldset>
+<legend>Enter your details for delivery</legend>
+<label>Select Pizza Type</label>
+<select [(ngModel)]="newCustomer.pizzaType" required>
+	<option value="Large">Large</option>
+	<option value="Medium">Medium</option>
+	<option value="Small">Small</option>
+</select><br>
+
+<label>First Name:</label><input type="text" [(ngModel)]="newCustomer.firstName" name="first name" autofocus autocomplete="off" required><br>
+
+<label>Last Name:</label><input type="text" [(ngModel)]="newCustomer.lastName" name="last name" autocomplete="off" required><br>
+
+<label>Phone:</label><input type="tel" [(ngModel)]="newCustomer.phoneNumber" placeholder="123-456-7890" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Provide number in the format 123-456-7890" autocomplete="off" required><br>	
+
+<label>Email:</label><input type="email" [(ngModel)]="newCustomer.email" placeholder="name@example.com" autocomplete="off" required><br>
+
+<label id="da">Delivery Address:</label>
+<button id="da" type="button" (click)="locateme()">Get current location</button><input id="da" type="text" value="{{ newCustomer.lat }} : {{ newCustomer.lon }}" readonly required><br>
+
+
+<button id="acbtn" type="button" (click)="addCustomer()">Submit Order</button> <br>
+<a id="ac" href="orderConfirmation">Check Order Confirmation</a>
+
+</fieldset>
+</form>
+
+
